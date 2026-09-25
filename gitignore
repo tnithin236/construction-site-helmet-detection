@@ -1,0 +1,74 @@
+# --- Model weights & large artifacts ---
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+best.pt
+last.pt
+runs/
+weights/
+
+# --- Datasets / media ---
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.avi
+*.mov
+# Uncomment if you don't want to track sample/test images
+# *.jpg
+# *.jpeg
+# *.png
+
+# --- CSV exports / logs ---
+*.csv
+detections_*.csv
+logs/
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+*.so
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+
+# --- Streamlit ---
+.streamlit/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+*.key
+
+# --- OS junk ---
+Thumbs.db
+desktop.ini
+
+# --- Roboflow / dataset caches ---
+*.cache
