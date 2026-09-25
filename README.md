@@ -1,5 +1,8 @@
 # 🪖 Helmet Detector — AI-Powered Safety Monitoring
 
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/31ce6926-ebc2-480d-a369-050c24c2d8ab" />
+
+
 A computer-vision app that detects whether workers are wearing safety helmets, built with **YOLO (Ultralytics)** and a **Streamlit** dashboard UI.
 
 ---
